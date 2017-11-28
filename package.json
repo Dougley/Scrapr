@@ -1,0 +1,15 @@
+{
+  "name": "scrapr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-spinner": "^0.2.7",
+    "superagent": "^3.8.1"
+  }
+}
