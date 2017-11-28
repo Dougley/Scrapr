@@ -11,4 +11,4 @@ After that, run the program with the following syntax:
 ```
 node ./index.js CHANNEL_ID USER_ID DISCORD_TOKEN
 ```
-The token used **must** be a bot token.
+The token used should idealy be a bot token, **using user tokens is not supported and might get you banned from Discord.**
