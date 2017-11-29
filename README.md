@@ -1,6 +1,6 @@
 # Scrapr
 
-Scrapr is an easy way to fetch messages from a Discord user easily, provided you have a bot with access to the channel
+Scrapr is an easy way to fetch Discord messages from someone, provided you have a bot with access to the channel
 
 ## Prerequisites 
 Node 9 or higher installed and added to PATH
