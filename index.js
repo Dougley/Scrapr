@@ -46,7 +46,7 @@ async function getEverything() {
     filtered.map(o => {
       result.push(o.content)
     })
-    setTimeout(() => getEverything(), 1500)
+    setTimeout(() => getEverything(), 750)
   }
 }
 
