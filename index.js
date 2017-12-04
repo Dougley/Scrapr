@@ -54,7 +54,7 @@ function finalize() {
   spin.stop()
   spin.clearLine()
   console.log(`\nDone! Dumping ${result.length} messages to file...`)
-  require('fs').writeFileSync(`./output/${USER_ID}_${CHANNEL_ID}.txt`, result.join('\n'))
+  require('fs').writeFileSync(`./output/${USER_ID}_${CHANNEL_ID}.txt`, result.join('\n'), 'utf8')
 }
 
 dataCheck().then(() => {
